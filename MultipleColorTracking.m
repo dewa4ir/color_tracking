@@ -22,7 +22,7 @@ clc
 clear variables
 close all
 %% initialize
-obj = VideoReader('RTK4x4.MP4');                         % Select Video File
+obj = VideoReader('REPLACEME');                         % Select Video File
 tfn = get(obj, 'NumFrames');                       % Total Frame Numbers
 sf  = 1;                                               % Start Frame For Tracking
 ef  = tfn;                                             % End Frame For Tracking
@@ -131,5 +131,5 @@ for fn = sf:ef
   pause(0.01)
 end
 
-save Rover.mat output1
-save Origin.mat output2
+save Output1.mat output1
+save Output2.mat output2
