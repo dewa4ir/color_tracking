@@ -18,5 +18,5 @@ Matlab script for color based tracking algorithm. Currently the algorithm tracks
 1. Open the MultipleColorTracking.m script.
 2. Replace the string in line 25 with the video file for tracking.
 `obj = VideoReader('REPLACEME'); `
-3. If needed, replace the naming of the output in line 134 and 135 `Rover.mat` in `save Rover.mat output1`
+3. If needed, replace the naming of the output in line 134 and 135 `Output1.mat` in `save Output1.mat output1`
 4. Upon running the script, a window will appear where you will click and drag around the first object for tracking. It will appear again immediately to select the second object.
